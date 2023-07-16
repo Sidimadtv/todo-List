@@ -1,0 +1,39 @@
+html {
+	font-size: 0.9em;
+} 
+*, *:before, *:after {
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	font-family: Arial;
+	overflow: hidden;
+} 
+body {
+	margin: 0;
+	padd_bodying: 0;
+	height: 100vh;
+	width: 100vw;
+	background: #262050;
+} 
+.load {
+	display: block;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background: #262050;
+} 
+.load_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 30vmin;
+	width: 30vmin;
+	max-height: 500px;
+	max-width: 500px;
+	background-image: url("./src/images/logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
